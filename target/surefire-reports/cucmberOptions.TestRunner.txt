@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucmberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.735 s <<< FAILURE! - in cucmberOptions.TestRunner
+Validate Place API's.Verify if Place is being successfully added using AddPlaceAPI  Time elapsed: 0.949 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+Validate Place API's.Verify if Delete Pleace functionality is working  Time elapsed: 0.036 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
